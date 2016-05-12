@@ -1,5 +1,3 @@
-    var express = require('express');
-    var app = express();
 // new for exer 8
     var React = require('react');
     var ReactDOMServer = require('react-dom/server');
@@ -11,6 +9,9 @@
     var browserify = require('browserify');
     var babelify = require("babelify");
 // end new
+
+    var express = require('express');
+    var app = express();
 
     app.set('port', (process.argv[2] || 3000));
     app.set('view engine', 'jsx');
